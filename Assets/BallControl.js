@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 function Start () {
-	var randomNum = Random.Range(0, 2);
+	var randomNum = Random.Range(0f, 1f);
 	if (randomNum <= 0.5) {
 		// simple code, can change later
 		rigidbody2D.AddForce(new Vector2(80, 10));
