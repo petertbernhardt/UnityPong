@@ -24,7 +24,7 @@ function ResetBall() {
 	rigidbody2D.velocity.x = 0;
 	transform.position.x = 0;
 	transform.position.y = 0;
-	yield WaitForSeconds (0.5);
+	yield WaitForSeconds (1.5);
 	GoBall();
 }
 
